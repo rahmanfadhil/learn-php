@@ -1,10 +1,10 @@
 <?php
 
-  // include 'ninjas.php';
-  // require 'ninjas.php';
-
-  require 'ninjas.php';
   include 'ninjas.php';
+  require 'ninjas.php';
+
+  // require 'ninjass.php'; // Throw error but keep the rest of the code running
+  // include 'ninjass.php'; // Throw fatal error and break the whole app
 
   echo 'end of php';
 
